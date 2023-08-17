@@ -1,0 +1,678 @@
+.body{
+    width: 1920px;
+    height: 3501px; 
+}
+.catalog{
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr );
+    align-content: space-around;
+    margin: 10px;
+    background-color: #FFF;
+}
+.FILTER{
+    grid-row-start: 1; 
+    grid-row-end: 3 ;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 319px;
+height: 854px;
+flex-shrink: 0;
+    margin: 10px;
+}
+.img1{
+    grid-row-start: 1;
+    grid-row-end: 2 ;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img1"
+    "Gift_Box_80";
+}
+.img2{
+    grid-row-start: 1;
+    grid-row-end: 2 ;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img2"
+    "Gift_Box_96";
+}
+.img3{
+    grid-row-start: 1;
+    grid-row-end: 2 ;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img3"
+    "Fresh_Gift_Box_80_96";
+}
+.img4{
+    grid-row-start: 2;
+    grid-row-end: 3 ;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img4"
+    "Dwell_Box_Large_1";
+}
+.img5{
+    grid-row-start: 2;
+    grid-row-end: 3 ;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img5"
+    "Large_Little_Lady_Box";
+}
+.img6{
+    grid-row-start: 2;
+    grid-row-end: 3 ;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img6"
+    "Best_Day_Ever";
+}
+.img7{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img7"
+    "Gift_Box_80_1";
+}
+.img8{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img8"
+    "Gift_Box_80_2";
+}
+.img9{
+    grid-row-start: 3;
+    grid-row-end:4;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img9"
+    "Dwell_Box_Large_2";
+}
+.img10{
+    grid-row-start:3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img10"
+    "Large_Little_Lady_Box";
+}
+.img11{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img11"
+    "Best_Day_Ever_Gift_Box";
+}
+.img12{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img12"
+    "Dwell_Box_Large_3";
+}
+.img13{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img13"
+    "Harvest-Flower3";
+}
+.img14{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5; 
+    width: 320px;
+    height: 318px;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: "img14"
+    "Best_Day_Ever";
+}
+.logo{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navigation_1{
+display: flex;
+align-items: stretch;
+justify-content: space-between;
+}
+.home{
+color: #575D65;
+font-family: Roboto Condensed;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+margin: 10px;
+}
+.catalog_1{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 10px;   
+}
+.build_1{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;  
+    margin: 10px;                 
+}
+.service{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin: 10px;                  
+}
+.photo{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;  
+    margin: 10px;                      
+}
+.payment{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;  
+    margin: 10px;                          
+}
+.guarantee{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;   
+    margin: 10px;                              
+}
+.FAQ{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase; 
+    margin: 10px;                                    
+}
+.test{
+    color: #575D65;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;                                       
+    margin: 10px;  
+}
+.navigation_2{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch; 
+    width: 1920px;
+    height: 49px;
+    flex-shrink: 0;
+    background: #575D65;
+}
+.Birthday{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    margin: 10px; 
+}
+.Christmas{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    margin: 10px;     
+}
+.New_Year{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    margin: 10px;                
+}
+.Wedding{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin: 10px;           
+}
+.Valentine{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    margin: 10px;                       
+}
+.Baby{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+    margin: 10px;                            
+}
+.Father{
+    color: #FFF;
+font-family: Roboto Condensed;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;   
+margin: 10px;                              
+}
+.Mother{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;   
+    margin: 10px;                                   
+}
+.Easter{
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;      
+    margin: 10px;                                    
+}
+.text_1{
+display: flex;
+justify-content: space-around;
+align-items: stretch; 
+color: #363636;
+font-family: Cormorant Garamond;
+font-size: 64px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
+.text_2{
+color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 1.98px;
+}
+.recently{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 800px;
+    height: 318px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.footer_1{
+    list-style-type: none;
+    color: #363636;
+font-family: Roboto Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer_2{
+    list-style-type: none;
+    color: #363636;
+font-family: Roboto Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer_3{
+    list-style-type: none;
+    color: #363636;
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+.footer_4{
+    list-style-type: none;
+    color: #363636;
+font-family: Roboto Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.info my_account{
+    color: #363636;
+font-family: Roboto Condensed;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+.more_build_your_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "more"
+    "build";
+    width: 350px;
+    height: 45px;
+    align-items: center;
+    margin: 10px;
+}
+.more{
+    color: #000;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 140px;
+    height: 45px;
+    border: 2px solid black;
+}
+.build{
+    color: #BAA598;
+font-family: Roboto Condensed;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 189px;
+height: 45px;
+border: 1px solid #BAA598;
+}
+@media screen and (min-width:400px)and (max-width:800px){
+    .body{
+        width: 100vw;
+        height: 100vh;
+    }
+    
+}
+@media screen and (min-width:400px) and (max-width:800px){
+    .catalog{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+@media screen and (min-width:400px) and (max-width:800px){
+.navigation_1{
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen and (min-width:400px) and (max-width:800px){
+    .navigation_2{
+        display: none;
+    }
+    }
+    @media screen and (min-width:400px) and (max-width:800px){
+        .icons {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+    }
+    @media screen and (min-width:400px) and (max-width:800px){
+    .text_2{
+        display: flex;
+        flex-direction: column;
+        color: #000;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 1.98px;}
+    }
+    @media screen and (min-width:400px) and (max-width:800px){
+        .recently{
+            display: flex;
+            flex-direction: column;width: 40%;
+            height: 40%;
+            margin: 20px;
+        }
+    }
+    @media screen and (min-width:400px) and (max-width:800px){
+    .more_build_your_box{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 40%;
+        height: 40%;
+        margin: 20px;
+    }
+}
+@media screen and (min-width:400px) and (max-width:800px){
+.img1{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 30px;
+}
+}
+@media screen and (min-width:400px) and (max-width:800px){
+    .img1{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 30px;
+    }
+    }
+    @media screen and (min-width:400px) and (max-width:800px){
+        .img2{
+            display:flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            margin: 30px;
+        }
+        }
+        @media screen and (min-width:400px) and (max-width:800px){
+            .img3{
+                display:flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                margin: 30px;
+            }
+            }
+            @media screen and (min-width:400px) and (max-width:800px){
+                .img4{
+                    display:flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    margin: 30px;
+                }
+                }
+                @media screen and (min-width:400px) and (max-width:800px){
+                    .img5{
+                        display:flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        margin: 30px;
+                    }
+                    }
+                    @media screen and (min-width:400px) and (max-width:800px){
+                        .img6{
+                            display:flex;
+                            flex-direction: column;
+                            flex-wrap: nowrap;
+                            margin: 30px;
+                        }
+                        }
+                        @media screen and (min-width:400px) and (max-width:800px){
+                            .img7{
+                                display:flex;
+                                flex-direction: column;
+                                flex-wrap: nowrap;
+                                margin: 30px;
+                            }
+                            }
+                            @media screen and (min-width:400px) and (max-width:800px){
+                                .img8{
+                                    display:flex;
+                                    flex-direction: column;
+                                    flex-wrap: nowrap;
+                                    margin: 30px;
+                                }
+                                }
+                                @media screen and (min-width:400px) and (max-width:800px){
+                                    .img9{
+                                        display:flex;
+                                        flex-direction: column;
+                                        flex-wrap: nowrap;
+                                        margin: 30px;
+                                    }
+                                    }
+                                    @media screen and (min-width:400px) and (max-width:800px){
+                                        .img10{
+                                            display:flex;
+                                            flex-direction: column;
+                                            flex-wrap: nowrap;
+                                            margin: 30px;
+                                        }
+                                        }
+                                        @media screen and (min-width:400px) and (max-width:800px){
+                                            .img11{
+                                                display:flex;
+                                                flex-direction: column;
+                                                flex-wrap: nowrap;
+                                                margin: 30px;
+                                            }
+                                            }
+                                            @media screen and (min-width:400px) and (max-width:800px){
+                                                .img12{
+                                                    display:flex;
+                                                    flex-direction: column;
+                                                    flex-wrap: nowrap;
+                                                    margin: 30px;
+                                                }
+                                                }
+                                                @media screen and (min-width:400px) and (max-width:800px){
+                                                    .img13{
+                                                        display:flex;
+                                                        flex-direction: column;
+                                                        flex-wrap: nowrap;
+                                                        margin: 30px;
+                                                    }
+                                                    }
+                                                    @media screen and (min-width:400px) and (max-width:800px){
+                                                        .img14{
+                                                            display:flex;
+                                                            flex-direction: column;
+                                                            flex-wrap: nowrap;
+                                                            margin: 30px;
+                                                        }
+                                                        }
+                                                        @media screen and (min-width:400px) and (max-width:800px){
+                                                            .footer{
+                                                                display:flex;
+                                                                flex-direction: column; 
+                                                            }
+                                                        }
